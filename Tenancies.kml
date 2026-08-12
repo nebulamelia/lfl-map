@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tenancies</name>
+    <description>Map of Tenancies</description>
+    <Style id="icon-1899-01579B-nodesc-normal">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-01579B-nodesc-highlight">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-01579B-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-01579B-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-01579B-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-1A237E-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-1A237E-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-1A237E">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-1A237E-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-1A237E-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-3949AB-nodesc-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-3949AB-nodesc-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-3949AB-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-3949AB-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-3949AB-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-4E342E-nodesc-normal">
+      <IconStyle>
+        <color>ff2e344e</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-4E342E-nodesc-highlight">
+      <IconStyle>
+        <color>ff2e344e</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-4E342E-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-4E342E-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-4E342E-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-9C27B0-nodesc-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-9C27B0-nodesc-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-9C27B0-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-9C27B0-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-9C27B0-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F57C00-nodesc-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-F57C00-nodesc-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-F57C00-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F57C00-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F57C00-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FFEA00-normal">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FFEA00-highlight">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFEA00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFEA00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFEA00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Current Tenancies</name>
+      <Placemark>
+        <name>Pole Lane, BB3 3LD</name>
+        <address>Pole Lane, BB3 3LD</address>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Bolton Road, BD1 4DR</name>
+        <address>Bolton Road, BD1 4DR</address>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Fenby Ave, BD4 9LJ</name>
+        <address>Fenby Ave, BD4 9LJ</address>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Loweswater Ave, BD6 2TZ</name>
+        <address>Loweswater Ave, BD6 2TZ</address>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Castle Road, BD21 2ST</name>
+        <address>Castle Road, BD21 2ST</address>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Brearcliffe Street, BD6 2LD</name>
+        <address>Brearcliffe Street, BD6 2LD</address>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Blakehill Terrace, BD2 3JS</name>
+        <address>Blakehill Terrace, BD2 3JS</address>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Alexander House, BD1 4DR</name>
+        <address>Alexander House, BD1 4DR</address>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Longhouse Lane, BD13 4NQ</name>
+        <address>Longhouse Lane, BD13 4NQ</address>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Oakdale Drive, BD10 0JF</name>
+        <address>Oakdale Drive, BD10 0JF</address>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Moorland Ave, BD17 6RW</name>
+        <address>Moorland Ave, BD17 6RW</address>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Longhouse Drive, BD13 4NG</name>
+        <address>Longhouse Drive, BD13 4NG</address>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Bradford Road, BD21 4HA</name>
+        <address>Bradford Road, BD21 4HA</address>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Platt Ave, CW11 1DE</name>
+        <address>Platt Ave, CW11 1DE</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Avon Drive, CW1 5NJ</name>
+        <address>Avon Drive, CW1 5NJ</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Clevedon Close, SK11 8LS</name>
+        <address>Clevedon Close, SK11 8LS</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Oakfield Road, CH1 5AG</name>
+        <address>Oakfield Road, CH1 5AG</address>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Stanney Lane, CH65 9AN</name>
+        <address>Stanney Lane, CH65 9AN</address>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Redwood Drive, CH66 2YA</name>
+        <address>Redwood Drive, CH66 2YA</address>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>High Street, WA7 2AU</name>
+        <address>High Street, WA7 2AU</address>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Gresford Ave, CH2 3QA</name>
+        <address>Gresford Ave, CH2 3QA</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Wellswood Rd, CH66 1JX</name>
+        <address>Wellswood Rd, CH66 1JX</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Phillip Street, CH2 3BY</name>
+        <address>Phillip Street, CH2 3BY</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Spring Lane, CO3 9TH</name>
+        <address>Spring Lane, CO3 9TH</address>
+        <styleUrl>#icon-1899-4E342E-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Grassington Rd, FY8 3QE</name>
+        <address>Grassington Rd, FY8 3QE</address>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Starling Close, WA7 6EU</name>
+        <address>Starling Close, WA7 6EU</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Lessingham Rd, WA8 9FU</name>
+        <address>Lessingham Rd, WA8 9FU</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Heyes Road, WA8 8QU</name>
+        <address>Heyes Road, WA8 8QU</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Milton Close, L35 2YQ</name>
+        <address>Milton Close, L35 2YQ</address>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Heather Gardens, LS13 4LF</name>
+        <address>Heather Gardens, LS13 4LF</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Millbeck Approach, LS27 8WA</name>
+        <address>Millbeck Approach, LS27 8WA</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Halliday Drive, LS12 3PA</name>
+        <address>Halliday Drive, LS12 3PA</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Oak Road, LS25 1PF</name>
+        <address>Oak Road, LS25 1PF</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Gipsy Lane, LS11 5TP</name>
+        <address>Gipsy Lane, LS11 5TP</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Durban Crescent, LS11 8AD</name>
+        <address>Durban Crescent, LS11 8AD</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Spring Gardens, LS13 4DT</name>
+        <address>Spring Gardens, LS13 4DT</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Marlowe Close, LS28 9NT</name>
+        <address>Marlowe Close, LS28 9NT</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Swarcliffe Ave, LS14 5LF</name>
+        <address>Swarcliffe Ave, LS14 5LF</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Kennerleigh Crescent, LS15 8RS</name>
+        <address>Kennerleigh Crescent, LS15 8RS</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Haigh Side Close, LS26 0UH</name>
+        <address>Haigh Side Close, LS26 0UH</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Harrison Road, LE4 6NP</name>
+        <address>Harrison Road, LE4 6NP</address>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Arundel, BN10 8HY</name>
+        <address>Arundel, BN10 8HY</address>
+        <styleUrl>#icon-1899-4E342E-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Highway, BN10 8XL</name>
+        <address>Highway, BN10 8XL</address>
+        <styleUrl>#icon-1899-4E342E-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Alexander Street, NN15 5SE</name>
+        <address>Alexander Street, NN15 5SE</address>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Orchard Road, NN9 5JG</name>
+        <address>Orchard Road, NN9 5JG</address>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Brockhill Close, NN157DS</name>
+        <address>Brockhill Close, NN157DS</address>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Rockville Park, PL9 7DG</name>
+        <address>Rockville Park, PL9 7DG</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Old Woodlands Road, PL5 3SX</name>
+        <address>Old Woodlands Road, PL5 3SX</address>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Tavistock Road, PL6 5EJ</name>
+        <address>Tavistock Road, PL6 5EJ</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Duncombe Ave, PL5 2JS</name>
+        <address>Duncombe Ave, PL5 2JS</address>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Foxhill Road S6 1BG</name>
+        <address>Foxhill Road S6 1BG</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Foxhill Place, S6 1GE</name>
+        <address>Foxhill Place, S6 1GE</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>The Dale, S8 0PW</name>
+        <address>The Dale, S8 0PW</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Sandby Court, S14 1DF</name>
+        <address>Sandby Court, S14 1DF</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Broadlands Ave, S20 6RL</name>
+        <address>Broadlands Ave, S20 6RL</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Dowland Ave, S35 4DE</name>
+        <address>Dowland Ave, S35 4DE</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Longley Crescent, S5 7NZ</name>
+        <address>Longley Crescent, S5 7NZ</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Halifax Road, S35 8PA</name>
+        <address>Halifax Road, S35 8PA</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Hilltop Rise, S35 8PD</name>
+        <address>Hilltop Rise, S35 8PD</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Newman Road, S9 1LX</name>
+        <address>Newman Road, S9 1LX</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Willow Drive, ST13 7FF</name>
+        <address>Willow Drive, ST13 7FF</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Outwood Road, SK8 3LZ</name>
+        <address>Outwood Road, SK8 3LZ</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Gloucester Road, SK8 3NB</name>
+        <address>Gloucester Road, SK8 3NB</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Omerod Close, SK6 3ED</name>
+        <address>Omerod Close, SK6 3ED</address>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Roseway, SK7 3BQ</name>
+        <address>Roseway, SK7 3BQ</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Cranstock Close, TS22 5RS</name>
+        <address>Cranstock Close, TS22 5RS</address>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>The Old Vicarage, 43 Fore Street, TQ12 5FG</name>
+        <address>The Old Vicarage, 43 Fore Street, TQ12 5FG</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Garden Cottages, CO16 9LG</name>
+        <address>Garden Cottages, CO16 9LG</address>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Orchard Drive, CO13 0SB</name>
+        <address>Orchard Drive, CO13 0SB</address>
+        <styleUrl>#icon-1899-4E342E-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Newton Place, TQ2 5DF</name>
+        <address>Newton Place, TQ2 5DF</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Reddenhill Road, TQ1 3RQ</name>
+        <address>Reddenhill Road, TQ1 3RQ</address>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Bronshill Court, TQ1 3HD</name>
+        <address>Bronshill Court, TQ1 3HD</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Marsland Road, M33 3NW</name>
+        <address>Marsland Road, M33 3NW</address>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Heathmoor, Tanhouse Lane, WA5 4BY</name>
+        <address>Heathmoor, Tanhouse Lane, WA5 4BY</address>
+        <styleUrl>#icon-1899-4E342E-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Rowan Ave, WN6 7RS</name>
+        <address>Rowan Ave, WN6 7RS</address>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Elnup Ave, WN6 8AT</name>
+        <address>Elnup Ave, WN6 8AT</address>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Arlington Drive, WN7 3QN</name>
+        <address>Arlington Drive, WN7 3QN</address>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Amberley Close, WN2 1AR</name>
+        <address>Amberley Close, WN2 1AR</address>
+        <styleUrl>#icon-1899-9C27B0-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Coleridge Way, CW1 5LE</name>
+        <address>Coleridge Way, CW1 5LE</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Ave Clamart, DN15 8EQ</name>
+        <address>Ave Clamart, DN15 8EQ</address>
+        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+      </Placemark>
+      <Placemark>
+        <name>Bradshaw House, CW12 1RU</name>
+        <address>Bradshaw House, CW12 1RU</address>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Upcoming Tenancies</name>
+      <Placemark>
+        <name>Saffron Lane, LE2 6TD</name>
+        <address>Saffron Lane, LE2 6TD</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Samuel Way, CW1 4SH</name>
+        <address>Samuel Way, CW1 4SH</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Parkfield Close, CV2 4NH</name>
+        <address>Parkfield Close, CV2 4NH</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Falstaff Court, CV37 6RB</name>
+        <address>Falstaff Court, CV37 6RB</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Celadine Road, CV2 1SX</name>
+        <address>Celadine Road, CV2 1SX</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Lodge Road, CV37 9DW</name>
+        <address>Lodge Road, CV37 9DW</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Hallfield Hall, SK1 4DA</name>
+        <address>Hallfield Hall, SK1 4DA</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Woodlands Road, LS15 7DW</name>
+        <address>Woodlands Road, LS15 7DW</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Morlands Road, S14 1SY</name>
+        <address>Morlands Road, S14 1SY</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Merton Road, S9 1ND</name>
+        <address>Merton Road, S9 1ND</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Bronshill Lodge, TQ1 3HD</name>
+        <address>Bronshill Lodge, TQ1 3HD</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>137 Harrison Road, LE4 6NP</name>
+        <address>137 Harrison Road, LE4 6NP</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Station Road, EN10 7AN</name>
+        <address>Station Road, EN10 7AN</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-1A237E</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Faverolle Green, EN8 0UJ</name>
+        <address>Faverolle Green, EN8 0UJ</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-1A237E</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Orchard Lea, SG13 7NY</name>
+        <address>Orchard Lea, SG13 7NY</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-1A237E</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Aylsham Road, EN11 0JG</name>
+        <address>Aylsham Road, EN11 0JG</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-1A237E</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Fairfield House, EN10 6JN</name>
+        <address>Fairfield House, EN10 6JN</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-1A237E</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>St Michaels Road, EN10 7JN</name>
+        <address>St Michaels Road, EN10 7JN</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-1A237E</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Sheredes Drive, EN11 8LJ</name>
+        <address>Sheredes Drive, EN11 8LJ</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-1A237E</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>John Gaffney House, BD9 5BU</name>
+        <address>John Gaffney House, BD9 5BU</address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-1A237E</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[St Abb's Way, BD6 1EJ]]></name>
+        <address><![CDATA[St Abb's Way, BD6 1EJ]]></address>
+        <description><![CDATA[<br><br>unnamed (1): ]]></description>
+        <styleUrl>#icon-1899-1A237E</styleUrl>
+        <ExtendedData>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
